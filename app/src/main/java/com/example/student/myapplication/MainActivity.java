@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     public void SaladClick(View view) {
         Toast.makeText(MainActivity.this, "Mixed Vegetables!",
                 Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "Vegetarian Vegetables",
+                Toast.LENGTH_LONG).show();
     }
 
     public void PastaClick(View view) {
